@@ -3,7 +3,7 @@ groceryStore1 = {
 }
 
 print('We have only', groceryStore1['storage1'], 'in our dictionary')
-groceryStore1.update({'storage2': 'strawberries'}) #Method 'update()' insert a new key/value pair in our dictionary
+groceryStore1.update({'storage2': 'strawberries'}) #Method 'update()' insert only one new key/value pair in our dictionary
 groceryStore1.update({'storage3': 'bananas'})
 print('All our storages in our dictionary are:', groceryStore1.keys()) #Method 'keys()' returns a list of the keys from the dictionary
 print('All our storages contain:', groceryStore1.values()) #This method returns a list of all values in the dictionary
